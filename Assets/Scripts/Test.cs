@@ -18,6 +18,7 @@ public class Test : MonoBehaviour
             intArray[i] = (int)Mathf.Pow(i, i);
         }
         stopwatch.Stop();
+        
         Debug.Log($"milliseconds : {stopwatch.ElapsedMilliseconds}");
 
         stopwatch.Reset();
